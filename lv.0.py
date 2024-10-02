@@ -87,4 +87,4 @@ forward(45)
 end_fill()
 pendown()
 
-# exitonclick()
+exitonclick()
