@@ -41,7 +41,7 @@ penup()
 color("green")
 begin_fill()
 right(150)
-forward(200)  #the roof and its color
+forward(200)  #the roof and its color   
 left(120)
 forward(200)
 end_fill()
@@ -87,4 +87,4 @@ forward(45)
 end_fill()
 pendown()
 
-# exitonclick()
+exitonclick()

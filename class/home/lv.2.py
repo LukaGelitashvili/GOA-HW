@@ -1,0 +1,107 @@
+from turtle import*
+
+speed(50)
+width(7)
+
+penup()
+goto(-300,-350)
+pendown()
+
+#base of the castle
+color("black")
+forward(600)
+left(90)
+forward(300)
+left(90)
+forward(600)
+left(90)
+forward(300)
+right(90)
+
+#tower 1
+forward(120)
+right(90)
+forward(500)
+right(90)
+forward(120)
+right(90)
+forward(200)
+right(180)
+
+penup()
+forward(200)
+pendown()
+left(20)
+forward(160)
+left(136)
+forward(160)
+
+penup()
+goto(300,-350)
+left(114)
+pendown()
+
+#tower 2
+forward(120)
+left(90)
+forward(500)
+left(90)
+forward(120)
+left(90)
+forward(200)
+left(180)
+penup()
+forward(200)
+pendown()
+right(20)
+forward(160)
+right(136)
+forward(160)
+
+penup()
+goto(60,-50)
+left (156)
+pendown()
+
+#tower 3
+forward(240)
+left(90)
+forward(120)
+left(90)
+forward(240)
+left(180)
+forward(240)
+right(20)
+forward(160)
+right(136)
+forward(160)
+
+penup()
+goto(60,-350)
+left(156)
+pendown()
+
+#Door Of The Castle
+forward(200)
+left(90)
+forward(120)
+left(90)
+forward(200)
+
+exitonclick()
+
+
+print(40+50)
+print(40-50)
+print(50//10)
+print(50/10)
+print(500 * 100)
+print(999 / 11)
+print(999 // 11)
+print(50+50)
+print(50-50)
+print(90 / 10)
+print(90//10)
+print(999 * 100)
+print(11 / 11)
+print(11 // 11)
