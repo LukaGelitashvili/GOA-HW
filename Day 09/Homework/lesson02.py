@@ -1,0 +1,7 @@
+# ლოგიკური ოპერატორების მაგალითები (and, or)
+print("\nლოგიკური ოპერატორების მაგალითები:")
+print("True and False:", True and False)
+print("True or False:", True or False)
+print("(5 > 3) and (8 > 6):", (5 > 3) and (8 > 6))
+print("(5 < 3) or (8 > 6):", (5 < 3) or (8 > 6)) 
+print("(7 == 7) and (5 != 4):", (7 == 7) and (5 != 4))
