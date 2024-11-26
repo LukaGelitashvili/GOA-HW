@@ -1,19 +1,15 @@
+# 1
 name = input()
-surname = input()
-age = input()
+height = float(input())
+age = int(input())
 
-print(name)
-print(surname)
-print(age)
+print(type(name))
+print(type(height))
+print(type(age))
 
-size = input()
-length = input()
-width = input()
-weight = input()
+#2
 
-print(size)
-print(length)
-print(width)
-print(weight)
-
-print(size + length + width + weight)
+surname = "Gelitashvili"
+city = "Tbilisi"
+country = "Georgia"
+print(name + " " + surname + " " + city + " " + country)
