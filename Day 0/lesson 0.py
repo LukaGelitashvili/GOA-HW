@@ -87,8 +87,4 @@ forward(45)
 end_fill()
 pendown()
 
-<<<<<<< HEAD:class/home/lv.0.py
 exitonclick()
-=======
-exitonclick()
->>>>>>> 913d8799428291e4c39f21afe0af2d5c07f2a767:lv.0.py
