@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Details Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    form {
+      width: 400px;
+      border: 1px solid black;
+      padding: 20px;
+      margin: auto;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input, select, textarea {
+      width: calc(100% - 20px);
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+    .gender-group {
+      margin-bottom: 10px;
+    }
+    textarea {
+      height: 60px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 15px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>Personal Details</h2>
+    <label for="salutation">Salutation</label>
+    <select id="salutation" name="salutation">
+      <option value="">--None--</option>
+      <option value="mr">Mr.</option>
+      <option value="ms">Ms.</option>
+      <option value="mrs">Mrs.</option>
+    </select>
+
+    <label for="first-name">First name:</label>
+    <input type="text" id="first-name" name="first-name" />
+
+    <label for="last-name">Last name:</label>
+    <input type="text" id="last-name" name="last-name" />
+
+    <div class="gender-group">
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male" style="display: inline;">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female" style="display: inline;">Female</label>
+    </div>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" />
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" />
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

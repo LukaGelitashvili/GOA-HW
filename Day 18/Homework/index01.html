@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Admission Form</h1>
+    <form action="#" method="post">
+        <!-- Login Details -->
+        <fieldset>
+            <legend>Login Details</legend>
+            <label>Username: <input type="text" name="username"></label><br>
+            <label>Password: <input type="password" name="password"></label>
+        </fieldset>
+        <br>
+
+        <!-- Personal Details -->
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>Name: <input type="text" name="name"></label><br>
+            <label>Mother's Name: <input type="text" name="mother_name"></label><br>
+            <label>Father's Name: <input type="text" name="father_name"></label><br>
+            <label>Date of Birth: <input type="date" name="dob"></label><br>
+            Gender:
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+        </fieldset>
+        <br>
+
+        <!-- Contact Details -->
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>Contact Number: <input type="text" name="contact_number"></label><br>
+            <label>Email ID: <input type="email" name="email"></label><br>
+            <label>Address:<br> <textarea name="address" rows="4" cols="40" placeholder="Enter Address..."></textarea></label><br>
+            <label>Country: 
+                <select name="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </label>
+        </fieldset>
+        <br>
+
+        <!-- Academic Details -->
+        <fieldset>
+            <legend>Academic Details</legend>
+            <label>10<sup>th</sup> Class Marks: <input type="text" name="class10_marks"></label>
+            <label>Board: <input type="text" name="class10_board"></label>
+            <label>School Name: <input type="text" name="class10_school"></label><br><br>
+            <label>12<sup>th</sup> Class Marks: <input type="text" name="class12_marks"></label>
+            <label>Board: <input type="text" name="class12_board"></label>
+            <label>School Name: <input type="text" name="class12_school"></label>
+        </fieldset>
+        <br>
+
+        <div style="text-align: center;">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

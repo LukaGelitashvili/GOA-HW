@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request for White Paper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        span.required {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Request for White Paper</h1>
+    <p>Please fill out the form below. If you have any questions, please email <a href="mailto:lukagelitashvili2@gmail.com">me</a>.</p>
+    <p><span class="required">*</span> - required fields</p>
+
+    <form action="#" method="post">
+        <label for="firstName"><span class="required">*</span> First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName"><span class="required">*</span> Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="companyName">Company Name:</label>
+        <input type="text" id="companyName" name="companyName">
+
+        <label for="website">Company/Personal Website:</label>
+        <input type="url" id="website" name="website">
+
+        <label for="email"><span class="required">*</span> Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="ext">Ext:</label>
+        <input type="text" id="ext" name="ext">
+
+        <label for="state">State/Province:</label>
+        <select id="state" name="state">
+            <option>Select for USA or Canada Only</option>
+            <option value="CA">California</option>
+            <option value="NY">New York</option>
+            <option value="ON">Ontario</option>
+        </select>
+
+        <label for="country"><span class="required">*</span> Country:</label>
+        <select id="country" name="country">
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Australia">Australia</option>
+        </select>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <input type="submit" value="Request White Paper">
+    </form>
+</body>
+</html>
