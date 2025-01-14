@@ -1,0 +1,40 @@
+<!-- Internal გზა CSS-ში ნიშნავს სტილის განსაზღვრას HTML დოკუმენტის <style> ტეგის გამოყენებით. ეს სტილები წერია HTML ფაილში <head> სექციაში და მოქმედებს მხოლოდ იმ დოკუმენტზე, რომელშიც ისინი განთავსებულია. Internal სტილი კარგი არჩევანია, როდესაც ერთი კონკრეტული გვერდისთვის არის საჭირო უნიკალური დიზაინი და არ იყენებთ გარე CSS ფაილს. -->
+<!-- მაგალითად: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internal CSS</title>
+  <style>
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      color: green;
+      line-height: 1.5;
+    }
+
+    button {
+      background-color: orange;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: darkorange;
+    }
+  </style>
+</head>
+<body>
+  <h1>this header is styled</h1>
+  <p>This paragraph is styled</p>
+  <button>this button is also styled</button>
+</body>
+</html>
