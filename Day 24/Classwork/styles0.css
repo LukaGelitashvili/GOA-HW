@@ -1,0 +1,17 @@
+.class-button {
+    background-color: lightgreen;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#btn-11, #btn-12, #btn-13, #btn-14, #btn-15 {
+    background-color: lightcoral;
+    color: white;
+    border: 2px solid darkred;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}

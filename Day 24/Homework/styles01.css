@@ -1,0 +1,26 @@
+/* font-family - განსაზღვრავს შრიფტს ტექსტისთვის */
+/* font-family: "Arial", sans-serif; */
+
+/* font-size - განსაზღვრავს ტექსტის ზომას */
+/* font-size: 16px; */
+
+/* font-style - განსაზღვრავს ტექსტის სტილს (normal, italic, oblique) */
+/* font-style: italic; */
+
+/* font-weight - განსაზღვრავს ტექსტის სიმკვრივეს (normal, bold, lighter, bolder ან ციფრული მნიშვნელობები) */
+/* font-weight: bold; */
+
+/* line-height - განსაზღვრავს შრეებს შორის მანძილს */
+/* line-height: 1.5; */
+
+/* letter-spacing - განსაზღვრავს ასოებს შორის მანძილს */
+/* letter-spacing: 2px; */
+
+/* text-transform - მართავს ტექსტის რეგისტრს (uppercase, lowercase, capitalize) */
+/* text-transform: uppercase; */
+
+/* text-decoration - ანიჭებს ტექსტს დეკორაციას, როგორიცაა underline, line-through ან overline */
+/* text-decoration: underline; */
+
+/* font-variant - მართავს მცირე ასოებს ან სხვა შრიფტის მახასიათებლებს
+font-variant: small-caps; */

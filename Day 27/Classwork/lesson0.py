@@ -1,0 +1,1 @@
+# codewars იყო არ ვიცი ამ შემთხვევაში როგორ უნდა გავაკეთო აქ visual code studio-ში classwork
